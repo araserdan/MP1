@@ -81,7 +81,7 @@
     position: relative;
     align-items: center;
     text-align: center;
-    line-height: 10px;
+    line-height: 18px;
   }
   
   #welcome h3 {
@@ -113,14 +113,14 @@
   h6 {
     margin: 0;
     padding: 0;
-    font-size: 15px;
+    font-size: 13px;
   }
   
   #abtcards {
     position: relative;
     justify-content: center;
     align-items: center;
-    padding-left: 20px;
+    padding: 20px;
   }
   
   .card1 img {
@@ -199,6 +199,7 @@
 
   #footer {
     line-height: 15px;
+    padding: 10px;
   }
   
   #footer h6 {
@@ -341,9 +342,12 @@
   }
   
   div #upicon {
+    position: relative;
+    display: flex;
     float: right;
     font-size: 50px;
     color: #f7ac56;
+    bottom: 100px;
   }
   
   
