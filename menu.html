@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+
+    <title>Egg Pie Ni Diday</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light"  id="navbar">
+    <div class="container 1">
+      <img src="./Images/eggpie_logo-trans.png" alt="Logo" width="85" height="85" class="d-inline-block align-text-top">
+      <div class="container-fluid">
+        <h3>EGG PIE NI DIDAY</h3>
+        </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-grow-0">
+          <li class="nav-item">
+            <a class="nav-link" nav-link active" aria-current="page" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#main">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./menu.html">MENU</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ORDER</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <hr class="border-2">     
+
+  <div class="mybox">
+  <div class="container" id="linksbox">
+        <ul class="nav justify-content-center">
+            <li class="nav-menu">
+                <a href="#menutitle1" class="nav-link">Egg Pie</a>
+            </li>
+            <li class="nav-menu">
+                <a href="#menutitle2" class="nav-link">Sizzling</a>
+            </li>
+            <li class="nav-menu">
+                <a href="menu.html" class="nav-link disabled">Sinangag at Itlog</a>
+            </li>
+            <li class="nav-menu">
+                <a href="menu.html" class="nav-link disabled">Noodle and Pasta</a>
+            </li>
+            <li class="nav-menu">
+                <a href="menu.html" class="nav-link disabled">Chicken Wings</a>
+            </li>
+            <li class="nav-menu">
+                <a href="menu.html" class="nav-link disabled">Coolers</a>
+            </li>
+            <li class="nav-menu">
+                <a href="menu.html" class="nav-link disabled">Halo-Halo</a>
+            </li>
+          </ul>
+    </div>
+    </div>
+
+  <hr class="border-2">    
+
+    <div class="container" id="menutitle1">
+      <div class="row">
+        <h3 class="eggpie">Egg Pie</h3>
+      <div>
+        <p>Home Made is the Best!</p>
+      </div>
+    </div>
+  </div>
+
+  <hr class="border-2">  
+
+<div class="container text-center" id="eggpie_menu">
+<div class="row">
+  <div class="col">
+    <div class="card border-light" id="card-classic">
+        <img src="./eggpie/classic.jpg" class="card-img-top" alt="classic">
+
+        <div class="card-body" id="classic">
+          <h5 class="card-title">Classic</h5>
+          <p class="card-text">Plain</p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#formmodal">
+            Order
+            </button>
+        </div>
+      </div>
+  </div>
+  <div class="col">
+    <div class="card border-light" id="card-ube">
+        <img src="./eggpie/ube.jpg" class="card-img-top" alt="ube">
+
+        <div class="card-body" id="ube">
+          <h5 class="card-title">Ube</h5>
+          <p class="card-text">Halayang Ube</p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#formmodal">
+            Order
+            </button>
+        </div>
+      </div>
+  </div>
+  <div class="col">
+    <div class="card border-light" id="card-macapuno">
+        <img src="./eggpie/macapuno.jpg" class="card-img-top" alt="macapuno">
+
+        <div class="card-body" id="mac">
+          <h5 class="card-title">Macapuno</h5>
+          <p class="card-text">Sweet Macapuno</p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#formmodal">
+            Order
+            </button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+        <div class="card border-light" id="card-ube-macapuno">
+            <img src="./eggpie/ube-macapuno.jpg" class="card-img-top" alt="ube-macapuno">
+
+        <div class="card-body" id="trio">
+            <h5 class="card-title">Trio</h5>
+            <p class="card-text">Classic, Ube, Macapuno</p>
+            <button type="button" class="btn btn-primary"  data-bs-target="#formmodal" data-bs-toggle="modal">
+                Order
+            </button>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<hr class="border-2">  
+
+<div class="container" id="menutitle2">
+  <div class="row">
+    <h3> Sizzling</h3>
+  <div>
+    <p>The EXTRA RICE Magnet!</p>
+  </div>
+</div>
+</div>
+
+<hr class="border-2">  
+
+<div class="container text-center" id="sizzling_menu">
+<div class="row">
+<div class="col">
+  <div class="card border-light" id="card-beef">
+      <img src="./sizzling/beef burger.jpg" class="card-img-top" alt="beef">
+
+      <div class="card-body" id="beef">
+        <h5 class="card-title">Beef Burger</h5>
+        <p class="card-text">P155.00</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#formmodal">
+          Order
+          </button>
+      </div>
+    </div>
+</div>
+
+<div class="col">
+  <div class="card border-light" id="card-pork">
+      <img src="./sizzling/breaded pork.jpg" class="card-img-top" alt="pork">
+
+      <div class="card-body" id="pork">
+        <h5 class="card-title">Breaded Pork</h5>
+        <p class="card-text">P155.00</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#formmodal">
+          Order
+          </button>
+      </div>
+    </div>
+</div>
+
+<div class="col">
+  <div class="card border-light" id="card-chicken">
+      <img src="./sizzling/fried chicken.jpg" class="card-img-top" alt="chicken">
+
+      <div class="card-body" id="chicken">
+        <h5 class="card-title">Fried Chicken</h5>
+        <p class="card-text">P155.00</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#formmodal">
+          Order
+          </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+      <div class="card border-light" id="card-hungarian">
+          <img src="./sizzling/hungarian.jpg" class="card-img-top" alt="hungarian">
+
+      <div class="card-body" id="hungarian">
+          <h5 class="card-title">Hungarian</h5>
+          <p class="card-text">P155.00</p>
+          <button type="button" class="btn btn-primary"  data-bs-target="#formmodal" data-bs-toggle="modal">
+              Order
+          </button>
+      </div>
+      </div>
+  </div>
+
+  <div class="col">
+      <div class="card border-light" id="card-sisig">
+          <img src="./sizzling/pork sisig.jpg" class="card-img-top" alt="sisig">
+
+      <div class="card-body" id="sisig">
+          <h5 class="card-title">Pork Sisig</h5>
+          <p class="card-text">P155.00</p>
+          <button type="button" class="btn btn-primary"  data-bs-target="#formmodal" data-bs-toggle="modal">
+              Order
+          </button>
+      </div>
+      </div>
+  </div>
+
+  <div class="col">
+      <div class="card border-light" id="card-tofu">
+          <img src="./sizzling/tofu.jpg" class="card-img-top" alt="tofu">
+
+      <div class="card-body" id="tofu">
+          <h5 class="card-title">Tofu</h5>
+          <p class="card-text">P155.00</p>
+          <button type="button" class="btn btn-primary"  data-bs-target="#formmodal" data-bs-toggle="modal">
+              Order
+          </button>
+      </div>
+      </div>
+  </div>
+</div>
+</div>
+
+      <hr class="border-2">
+
+          <footer class="container text-center" id="footer">
+              <div class="row">
+                <div class="col" id="qlinks">
+                  <h6>Quick Links</h6>
+                  <div class="col">
+                    <a class="link-opacity-10-hover" href="index.html">Home</a>
+                  </div>
+                  <div class="col">
+                    <a class="link-opacity-10-hover" href="#">Menu</a>
+                  </div>
+                    <div class="col">
+                    <a class="link-opacity-10-hover" href="#">About</a>
+                  </div>
+                  <div class="col">
+                    <a class="link-opacity-10-hover" href="#">Order</a>
+                  </div>
+                  <div class="col">
+                    <a class="link-opacity-10-hover" href="#">Contact</a>
+                  </div>
+              </div>
+            
+              <div class="col" id="policies">
+                <h6>Policies</h6>
+                  <div class="col">
+                    <a class="link-opacity-10-hover" href="#">Disclaimer</a>
+                  </div>
+                  <div class="col">
+                    <a class="link-opacity-10-hover" href="#">Privacy Policy</a>
+                  </div>
+                  <div class="col">
+                    <a class="link-opacity-10-hover" href="#">Terms and Conditions</a>
+                  </div>
+              </div>
+
+              <div class="col" id="socials">  
+                <h6>Follow us</h6>
+              <div class="col" id="fb">
+                <a href="https://www.facebook.com/profile.php?id=100063897078766"><ion-icon name="logo-facebook"></ion-icon></a>
+              </div>
+              <div class="col" id="tw">
+                <a href="https://www.tiktok.com/@eggpienididay?is_from_webapp=1&sender_device=pc"><ion-icon name="logo-tiktok"></ion-icon></a>
+              </div>
+              </div>
+              </div>
+            </footer>
+      <hr class="border-2">
+      
+    <section>
+      <p class="copyright">Copyright &copy 2023 EP’N’D Food House. All rights reserved.</p>
+    </section>
+
+    
+<div class="modal fade" id="formmodal" aria-hidden="true" aria-labelledby="formmodalLabel" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="formmodalLabel">Please choose</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container text-center">
+          <div class="row">
+                  <div class="col">
+                      <h4>Size</h4>
+                  </div>
+                  <div class="col">
+                      <input type="radio" name="size" id="Family" value="Family">
+                    <div>
+                      <label for="Family">
+                        <p>Family <br>
+                            8 inches x 8 cuts</p>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <input type="radio" name="size" id="Tart" value="Tart">
+                  <div>
+                    <label for="Tart">
+                      <p>Tart <br>
+                          2.5 inches x 8 pcs</p>
+                    </label>
+                  </div>
+                </div>
+              <div class="col">
+                  <input type="radio" name="size" id="Solo" value="Solo">
+                <div>
+                  <label for="Solo">
+                    <p>Solo <br>
+                        4 inches x 1 pc</p>
+                  </label>
+                </div>
+              </div>
+            </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-warning" data-bs-target="#orderconfirm" data-bs-toggle="modal">Submit Order</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="orderconfirm" aria-hidden="true" aria-labelledby="orderconfirmLabel" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="orderconfirmLabel"></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Order Submitted!
+        <P>Thank you for your order!
+          Your Order has been confirmed. Please check your email for detail.</P>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" data-bs-target="#formmodal" data-bs-toggle="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+
+   
+</body>
+</html>
